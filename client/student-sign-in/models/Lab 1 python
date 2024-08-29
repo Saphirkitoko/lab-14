@@ -1,0 +1,12 @@
+# Asking user for their name
+name = input("Please enter your name: ")
+
+# Asking user for their birth month
+birth_month = input("Please enter your birth month (e.g., January, August): ")
+
+# Printing hello message with their name
+print(f"Hello, {name}!")
+
+# Checking if the birth month is August
+if birth_month.strip().lower() == "august":
+    print("Your birth month is August!")
